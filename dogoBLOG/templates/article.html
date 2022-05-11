@@ -13,4 +13,17 @@
   </div>
 </div>
 
+</br>
+  <h4>Comments:</h4>
+  {% if post.comment_set.all %}
+    {% for cmnt in post.comment_set.all %}
+      <hr>
+      <strong>{{ cmnt.commenting_user }}</strong>, <em>{{ cmnt.date_created}}</em>
+      <p>{{ cmnt.content }}</p>
+    {% endfor %}
+  {% else %}
+    <p>No Comments here</p>
+  {% endif %}
+
+
 {% endblock content %}

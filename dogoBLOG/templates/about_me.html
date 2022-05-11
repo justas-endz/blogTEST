@@ -1,4 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
-None
+{% load static %}
+<body>
+  <h2>HTML Image</h2>
+  <img src="{% static 'images/img_girl.jpg' %}"  width="500" height="600">
+
+</body>
 {% endblock content %}
