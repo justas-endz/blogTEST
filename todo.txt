@@ -2,8 +2,7 @@
     a. use tinyMCE                  [x]
 2. Page for all articles            [x]
 3. Paginator                        [x]
-4. User login, registration
-    password change                 []
+4. User login, registration         [x]
 5. User can create articles         []
 6. User can change articles         []
 7. Commenting (with user info)      []
@@ -13,3 +12,4 @@
 10. No full article. "See more"     [x]
 11. Translation. Language change    []
 12. Style it, cool cat              []
+13. User password change            []
